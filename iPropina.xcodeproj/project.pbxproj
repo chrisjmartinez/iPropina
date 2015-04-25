@@ -1,0 +1,648 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A60B826C16C82BDE00F7D59A /* ShareViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A60B826B16C82BDE00F7D59A /* ShareViewController.m */; };
+		A6202706167549FA006308C6 /* default57.png in Resources */ = {isa = PBXBuildFile; fileRef = A6202704167549FA006308C6 /* default57.png */; };
+		A620270916754A98006308C6 /* default72.png in Resources */ = {isa = PBXBuildFile; fileRef = A620270816754A98006308C6 /* default72.png */; };
+		A624B78D16921A66002CC1BF /* CategoryPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A624B78C16921A66002CC1BF /* CategoryPickerViewController.m */; };
+		A624B791169224FF002CC1BF /* NearbyNameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A624B790169224FF002CC1BF /* NearbyNameViewController.m */; };
+		A6546B401688F38600614B21 /* libGoogleAdMobAds.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A6D2276F14A9056C00C3EFB5 /* libGoogleAdMobAds.a */; };
+		A6546B421688F3E500614B21 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6546B411688F3E500614B21 /* StoreKit.framework */; };
+		A6546B451688F7A500614B21 /* RateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6546B441688F7A500614B21 /* RateViewController.m */; };
+		A685535316C93DDA002C85D0 /* twitter-bird-light-bgs.png in Resources */ = {isa = PBXBuildFile; fileRef = A685535216C93DDA002C85D0 /* twitter-bird-light-bgs.png */; };
+		A685535A16C9790C002C85D0 /* Active-Instagram-3-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = A685535916C9790B002C85D0 /* Active-Instagram-3-icon.png */; };
+		A686DE9D1691156000F26C79 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A686DE9C1691156000F26C79 /* CoreLocation.framework */; };
+		A69112EB16C8433200F8206B /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A69112EA16C8433200F8206B /* Social.framework */; };
+		A69112EE16C849ED00F8206B /* f_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = A69112EC16C849ED00F8206B /* f_logo.png */; };
+		A69112F316C84C3400F8206B /* 1360554213_Mail.png in Resources */ = {isa = PBXBuildFile; fileRef = A69112F216C84C3400F8206B /* 1360554213_Mail.png */; };
+		A69112F616C84DA100F8206B /* 1360554467_share.png in Resources */ = {isa = PBXBuildFile; fileRef = A69112F516C84DA100F8206B /* 1360554467_share.png */; };
+		A69240961688E72D00DDCA7E /* ic_menu_star.png in Resources */ = {isa = PBXBuildFile; fileRef = A69240951688E72D00DDCA7E /* ic_menu_star.png */; };
+		A69240991688EEBA00DDCA7E /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A69240981688EEBA00DDCA7E /* AdSupport.framework */; settings = {ATTRIBUTES = (Required, ); }; };
+		A692409B1688F0D000DDCA7E /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A692409A1688F0D000DDCA7E /* Default-568h@2x.png */; };
+		A692409D1688F13700DDCA7E /* default114.png in Resources */ = {isa = PBXBuildFile; fileRef = A692409C1688F13700DDCA7E /* default114.png */; };
+		A693A10216CD26EC0068681B /* CopyTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = A693A10116CD26EC0068681B /* CopyTextField.m */; };
+		A697E9CC16CC1D6200B9FDA2 /* RateView.m in Sources */ = {isa = PBXBuildFile; fileRef = A697E9CB16CC1D6200B9FDA2 /* RateView.m */; };
+		A697E9D016CC232500B9FDA2 /* rate_star_empty.png in Resources */ = {isa = PBXBuildFile; fileRef = A697E9CD16CC232500B9FDA2 /* rate_star_empty.png */; };
+		A697E9D116CC232500B9FDA2 /* rate_star_full.png in Resources */ = {isa = PBXBuildFile; fileRef = A697E9CE16CC232500B9FDA2 /* rate_star_full.png */; };
+		A697E9D216CC232500B9FDA2 /* rate_star_half.png in Resources */ = {isa = PBXBuildFile; fileRef = A697E9CF16CC232500B9FDA2 /* rate_star_half.png */; };
+		A6D2273214A9051700C3EFB5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6D2273114A9051700C3EFB5 /* UIKit.framework */; };
+		A6D2273414A9051700C3EFB5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6D2273314A9051700C3EFB5 /* Foundation.framework */; };
+		A6D2273614A9051700C3EFB5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6D2273514A9051700C3EFB5 /* CoreGraphics.framework */; };
+		A6D2273C14A9051700C3EFB5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A6D2273A14A9051700C3EFB5 /* InfoPlist.strings */; };
+		A6D2273E14A9051700C3EFB5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A6D2273D14A9051700C3EFB5 /* main.m */; };
+		A6D2274214A9051700C3EFB5 /* iPropinaAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A6D2274114A9051700C3EFB5 /* iPropinaAppDelegate.m */; };
+		A6D2274514A9051700C3EFB5 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6D2274314A9051700C3EFB5 /* MainStoryboard_iPhone.storyboard */; };
+		A6D2274814A9051700C3EFB5 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6D2274614A9051700C3EFB5 /* MainStoryboard_iPad.storyboard */; };
+		A6D2274B14A9051700C3EFB5 /* iPropinaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6D2274A14A9051700C3EFB5 /* iPropinaViewController.m */; };
+		A6D2275314A9051700C3EFB5 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6D2275214A9051700C3EFB5 /* SenTestingKit.framework */; };
+		A6D2275414A9051700C3EFB5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6D2273114A9051700C3EFB5 /* UIKit.framework */; };
+		A6D2275514A9051700C3EFB5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6D2273314A9051700C3EFB5 /* Foundation.framework */; };
+		A6D2275D14A9051700C3EFB5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A6D2275B14A9051700C3EFB5 /* InfoPlist.strings */; };
+		A6D2276014A9051700C3EFB5 /* iPropinaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A6D2275F14A9051700C3EFB5 /* iPropinaTests.m */; };
+		A6D2277414A9059F00C3EFB5 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6D2277114A9059F00C3EFB5 /* AudioToolbox.framework */; };
+		A6D2277514A9059F00C3EFB5 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6D2277214A9059F00C3EFB5 /* MessageUI.framework */; };
+		A6D2277614A9059F00C3EFB5 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6D2277314A9059F00C3EFB5 /* SystemConfiguration.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A6D2275614A9051700C3EFB5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A6D2272414A9051700C3EFB5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A6D2272C14A9051700C3EFB5;
+			remoteInfo = iPropina;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A60B826A16C82BDE00F7D59A /* ShareViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShareViewController.h; sourceTree = "<group>"; };
+		A60B826B16C82BDE00F7D59A /* ShareViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShareViewController.m; sourceTree = "<group>"; };
+		A6202704167549FA006308C6 /* default57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = default57.png; sourceTree = "<group>"; };
+		A620270816754A98006308C6 /* default72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = default72.png; sourceTree = "<group>"; };
+		A624B78B16921A66002CC1BF /* CategoryPickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CategoryPickerViewController.h; sourceTree = "<group>"; };
+		A624B78C16921A66002CC1BF /* CategoryPickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CategoryPickerViewController.m; sourceTree = "<group>"; };
+		A624B78F169224FF002CC1BF /* NearbyNameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NearbyNameViewController.h; sourceTree = "<group>"; };
+		A624B790169224FF002CC1BF /* NearbyNameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NearbyNameViewController.m; sourceTree = "<group>"; };
+		A6546B411688F3E500614B21 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		A6546B431688F7A500614B21 /* RateViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RateViewController.h; sourceTree = "<group>"; };
+		A6546B441688F7A500614B21 /* RateViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RateViewController.m; sourceTree = "<group>"; };
+		A685535216C93DDA002C85D0 /* twitter-bird-light-bgs.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "twitter-bird-light-bgs.png"; sourceTree = SOURCE_ROOT; };
+		A685535916C9790B002C85D0 /* Active-Instagram-3-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Active-Instagram-3-icon.png"; sourceTree = SOURCE_ROOT; };
+		A686DE9C1691156000F26C79 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		A69112EA16C8433200F8206B /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		A69112EC16C849ED00F8206B /* f_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = f_logo.png; sourceTree = SOURCE_ROOT; };
+		A69112F216C84C3400F8206B /* 1360554213_Mail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1360554213_Mail.png; sourceTree = SOURCE_ROOT; };
+		A69112F516C84DA100F8206B /* 1360554467_share.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1360554467_share.png; sourceTree = SOURCE_ROOT; };
+		A69240951688E72D00DDCA7E /* ic_menu_star.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_menu_star.png; sourceTree = "<group>"; };
+		A69240981688EEBA00DDCA7E /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		A692409A1688F0D000DDCA7E /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		A692409C1688F13700DDCA7E /* default114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = default114.png; sourceTree = "<group>"; };
+		A693A10016CD26EC0068681B /* CopyTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CopyTextField.h; sourceTree = "<group>"; };
+		A693A10116CD26EC0068681B /* CopyTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CopyTextField.m; sourceTree = "<group>"; };
+		A697E9CA16CC1D6200B9FDA2 /* RateView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RateView.h; sourceTree = "<group>"; };
+		A697E9CB16CC1D6200B9FDA2 /* RateView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RateView.m; sourceTree = "<group>"; };
+		A697E9CD16CC232500B9FDA2 /* rate_star_empty.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rate_star_empty.png; sourceTree = "<group>"; };
+		A697E9CE16CC232500B9FDA2 /* rate_star_full.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rate_star_full.png; sourceTree = "<group>"; };
+		A697E9CF16CC232500B9FDA2 /* rate_star_half.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rate_star_half.png; sourceTree = "<group>"; };
+		A6D2272D14A9051700C3EFB5 /* iPropina.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iPropina.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6D2273114A9051700C3EFB5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A6D2273314A9051700C3EFB5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A6D2273514A9051700C3EFB5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A6D2273914A9051700C3EFB5 /* iPropina-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iPropina-Info.plist"; sourceTree = "<group>"; };
+		A6D2273B14A9051700C3EFB5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A6D2273D14A9051700C3EFB5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A6D2273F14A9051700C3EFB5 /* iPropina-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iPropina-Prefix.pch"; sourceTree = "<group>"; };
+		A6D2274014A9051700C3EFB5 /* iPropinaAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iPropinaAppDelegate.h; sourceTree = "<group>"; };
+		A6D2274114A9051700C3EFB5 /* iPropinaAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iPropinaAppDelegate.m; sourceTree = "<group>"; };
+		A6D2274414A9051700C3EFB5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		A6D2274714A9051700C3EFB5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		A6D2274914A9051700C3EFB5 /* iPropinaViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iPropinaViewController.h; sourceTree = "<group>"; };
+		A6D2274A14A9051700C3EFB5 /* iPropinaViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iPropinaViewController.m; sourceTree = "<group>"; };
+		A6D2275114A9051700C3EFB5 /* iPropinaTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iPropinaTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6D2275214A9051700C3EFB5 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		A6D2275A14A9051700C3EFB5 /* iPropinaTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iPropinaTests-Info.plist"; sourceTree = "<group>"; };
+		A6D2275C14A9051700C3EFB5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A6D2275E14A9051700C3EFB5 /* iPropinaTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iPropinaTests.h; sourceTree = "<group>"; };
+		A6D2275F14A9051700C3EFB5 /* iPropinaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iPropinaTests.m; sourceTree = "<group>"; };
+		A6D2276914A9056C00C3EFB5 /* GADBannerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADBannerView.h; sourceTree = "<group>"; };
+		A6D2276A14A9056C00C3EFB5 /* GADBannerViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADBannerViewDelegate.h; sourceTree = "<group>"; };
+		A6D2276B14A9056C00C3EFB5 /* GADInterstitial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADInterstitial.h; sourceTree = "<group>"; };
+		A6D2276C14A9056C00C3EFB5 /* GADInterstitialDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADInterstitialDelegate.h; sourceTree = "<group>"; };
+		A6D2276D14A9056C00C3EFB5 /* GADRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADRequest.h; sourceTree = "<group>"; };
+		A6D2276E14A9056C00C3EFB5 /* GADRequestError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADRequestError.h; sourceTree = "<group>"; };
+		A6D2276F14A9056C00C3EFB5 /* libGoogleAdMobAds.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libGoogleAdMobAds.a; sourceTree = "<group>"; };
+		A6D2277114A9059F00C3EFB5 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		A6D2277214A9059F00C3EFB5 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		A6D2277314A9059F00C3EFB5 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A6D2272A14A9051700C3EFB5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A69112EB16C8433200F8206B /* Social.framework in Frameworks */,
+				A686DE9D1691156000F26C79 /* CoreLocation.framework in Frameworks */,
+				A6546B421688F3E500614B21 /* StoreKit.framework in Frameworks */,
+				A69240991688EEBA00DDCA7E /* AdSupport.framework in Frameworks */,
+				A6D2277414A9059F00C3EFB5 /* AudioToolbox.framework in Frameworks */,
+				A6546B401688F38600614B21 /* libGoogleAdMobAds.a in Frameworks */,
+				A6D2277514A9059F00C3EFB5 /* MessageUI.framework in Frameworks */,
+				A6D2277614A9059F00C3EFB5 /* SystemConfiguration.framework in Frameworks */,
+				A6D2273614A9051700C3EFB5 /* CoreGraphics.framework in Frameworks */,
+				A6D2273214A9051700C3EFB5 /* UIKit.framework in Frameworks */,
+				A6D2273414A9051700C3EFB5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6D2274D14A9051700C3EFB5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6D2275314A9051700C3EFB5 /* SenTestingKit.framework in Frameworks */,
+				A6D2275414A9051700C3EFB5 /* UIKit.framework in Frameworks */,
+				A6D2275514A9051700C3EFB5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A6546B3F1688F32F00614B21 /* GoogleAds */ = {
+			isa = PBXGroup;
+			children = (
+				A6D2276914A9056C00C3EFB5 /* GADBannerView.h */,
+				A6D2276A14A9056C00C3EFB5 /* GADBannerViewDelegate.h */,
+				A6D2276B14A9056C00C3EFB5 /* GADInterstitial.h */,
+				A6D2276C14A9056C00C3EFB5 /* GADInterstitialDelegate.h */,
+				A6D2276D14A9056C00C3EFB5 /* GADRequest.h */,
+				A6D2276E14A9056C00C3EFB5 /* GADRequestError.h */,
+				A6D2276F14A9056C00C3EFB5 /* libGoogleAdMobAds.a */,
+			);
+			name = GoogleAds;
+			sourceTree = "<group>";
+		};
+		A6D2272214A9051700C3EFB5 = {
+			isa = PBXGroup;
+			children = (
+				A697E9CD16CC232500B9FDA2 /* rate_star_empty.png */,
+				A697E9CE16CC232500B9FDA2 /* rate_star_full.png */,
+				A697E9CF16CC232500B9FDA2 /* rate_star_half.png */,
+				A69112EA16C8433200F8206B /* Social.framework */,
+				A6546B3F1688F32F00614B21 /* GoogleAds */,
+				A692409C1688F13700DDCA7E /* default114.png */,
+				A692409A1688F0D000DDCA7E /* Default-568h@2x.png */,
+				A69240951688E72D00DDCA7E /* ic_menu_star.png */,
+				A620270816754A98006308C6 /* default72.png */,
+				A6202704167549FA006308C6 /* default57.png */,
+				A6D2273714A9051700C3EFB5 /* iPropina */,
+				A6D2275814A9051700C3EFB5 /* iPropinaTests */,
+				A6D2273014A9051700C3EFB5 /* Frameworks */,
+				A6D2272E14A9051700C3EFB5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A6D2272E14A9051700C3EFB5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A6D2272D14A9051700C3EFB5 /* iPropina.app */,
+				A6D2275114A9051700C3EFB5 /* iPropinaTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A6D2273014A9051700C3EFB5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A686DE9C1691156000F26C79 /* CoreLocation.framework */,
+				A6546B411688F3E500614B21 /* StoreKit.framework */,
+				A6D2277314A9059F00C3EFB5 /* SystemConfiguration.framework */,
+				A6D2277214A9059F00C3EFB5 /* MessageUI.framework */,
+				A6D2277114A9059F00C3EFB5 /* AudioToolbox.framework */,
+				A69240981688EEBA00DDCA7E /* AdSupport.framework */,
+				A6D2273114A9051700C3EFB5 /* UIKit.framework */,
+				A6D2273314A9051700C3EFB5 /* Foundation.framework */,
+				A6D2273514A9051700C3EFB5 /* CoreGraphics.framework */,
+				A6D2275214A9051700C3EFB5 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A6D2273714A9051700C3EFB5 /* iPropina */ = {
+			isa = PBXGroup;
+			children = (
+				A685535916C9790B002C85D0 /* Active-Instagram-3-icon.png */,
+				A685535216C93DDA002C85D0 /* twitter-bird-light-bgs.png */,
+				A69112F516C84DA100F8206B /* 1360554467_share.png */,
+				A69112F216C84C3400F8206B /* 1360554213_Mail.png */,
+				A69112EC16C849ED00F8206B /* f_logo.png */,
+				A693A10016CD26EC0068681B /* CopyTextField.h */,
+				A693A10116CD26EC0068681B /* CopyTextField.m */,
+				A6D2274014A9051700C3EFB5 /* iPropinaAppDelegate.h */,
+				A6D2274114A9051700C3EFB5 /* iPropinaAppDelegate.m */,
+				A6D2274314A9051700C3EFB5 /* MainStoryboard_iPhone.storyboard */,
+				A6D2274614A9051700C3EFB5 /* MainStoryboard_iPad.storyboard */,
+				A6D2274914A9051700C3EFB5 /* iPropinaViewController.h */,
+				A6D2274A14A9051700C3EFB5 /* iPropinaViewController.m */,
+				A6D2273814A9051700C3EFB5 /* Supporting Files */,
+				A697E9CA16CC1D6200B9FDA2 /* RateView.h */,
+				A697E9CB16CC1D6200B9FDA2 /* RateView.m */,
+				A6546B431688F7A500614B21 /* RateViewController.h */,
+				A6546B441688F7A500614B21 /* RateViewController.m */,
+				A624B78B16921A66002CC1BF /* CategoryPickerViewController.h */,
+				A624B78C16921A66002CC1BF /* CategoryPickerViewController.m */,
+				A624B78F169224FF002CC1BF /* NearbyNameViewController.h */,
+				A624B790169224FF002CC1BF /* NearbyNameViewController.m */,
+				A60B826A16C82BDE00F7D59A /* ShareViewController.h */,
+				A60B826B16C82BDE00F7D59A /* ShareViewController.m */,
+			);
+			path = iPropina;
+			sourceTree = "<group>";
+		};
+		A6D2273814A9051700C3EFB5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A6D2273914A9051700C3EFB5 /* iPropina-Info.plist */,
+				A6D2273A14A9051700C3EFB5 /* InfoPlist.strings */,
+				A6D2273D14A9051700C3EFB5 /* main.m */,
+				A6D2273F14A9051700C3EFB5 /* iPropina-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A6D2275814A9051700C3EFB5 /* iPropinaTests */ = {
+			isa = PBXGroup;
+			children = (
+				A6D2275E14A9051700C3EFB5 /* iPropinaTests.h */,
+				A6D2275F14A9051700C3EFB5 /* iPropinaTests.m */,
+				A6D2275914A9051700C3EFB5 /* Supporting Files */,
+			);
+			path = iPropinaTests;
+			sourceTree = "<group>";
+		};
+		A6D2275914A9051700C3EFB5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A6D2275A14A9051700C3EFB5 /* iPropinaTests-Info.plist */,
+				A6D2275B14A9051700C3EFB5 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A6D2272C14A9051700C3EFB5 /* iPropina */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6D2276314A9051700C3EFB5 /* Build configuration list for PBXNativeTarget "iPropina" */;
+			buildPhases = (
+				A6D2272914A9051700C3EFB5 /* Sources */,
+				A6D2272A14A9051700C3EFB5 /* Frameworks */,
+				A6D2272B14A9051700C3EFB5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iPropina;
+			productName = iPropina;
+			productReference = A6D2272D14A9051700C3EFB5 /* iPropina.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A6D2275014A9051700C3EFB5 /* iPropinaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6D2276614A9051700C3EFB5 /* Build configuration list for PBXNativeTarget "iPropinaTests" */;
+			buildPhases = (
+				A6D2274C14A9051700C3EFB5 /* Sources */,
+				A6D2274D14A9051700C3EFB5 /* Frameworks */,
+				A6D2274E14A9051700C3EFB5 /* Resources */,
+				A6D2274F14A9051700C3EFB5 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A6D2275714A9051700C3EFB5 /* PBXTargetDependency */,
+			);
+			name = iPropinaTests;
+			productName = iPropinaTests;
+			productReference = A6D2275114A9051700C3EFB5 /* iPropinaTests.octest */;
+			productType = "com.apple.product-type.bundle.ocunit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A6D2272414A9051700C3EFB5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				TargetAttributes = {
+					A6D2272C14A9051700C3EFB5 = {
+						DevelopmentTeam = ZW82ETTB3F;
+					};
+				};
+			};
+			buildConfigurationList = A6D2272714A9051700C3EFB5 /* Build configuration list for PBXProject "iPropina" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A6D2272214A9051700C3EFB5;
+			productRefGroup = A6D2272E14A9051700C3EFB5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A6D2272C14A9051700C3EFB5 /* iPropina */,
+				A6D2275014A9051700C3EFB5 /* iPropinaTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A6D2272B14A9051700C3EFB5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6D2273C14A9051700C3EFB5 /* InfoPlist.strings in Resources */,
+				A6D2274514A9051700C3EFB5 /* MainStoryboard_iPhone.storyboard in Resources */,
+				A6D2274814A9051700C3EFB5 /* MainStoryboard_iPad.storyboard in Resources */,
+				A6202706167549FA006308C6 /* default57.png in Resources */,
+				A620270916754A98006308C6 /* default72.png in Resources */,
+				A69240961688E72D00DDCA7E /* ic_menu_star.png in Resources */,
+				A692409B1688F0D000DDCA7E /* Default-568h@2x.png in Resources */,
+				A692409D1688F13700DDCA7E /* default114.png in Resources */,
+				A69112EE16C849ED00F8206B /* f_logo.png in Resources */,
+				A69112F316C84C3400F8206B /* 1360554213_Mail.png in Resources */,
+				A69112F616C84DA100F8206B /* 1360554467_share.png in Resources */,
+				A685535316C93DDA002C85D0 /* twitter-bird-light-bgs.png in Resources */,
+				A685535A16C9790C002C85D0 /* Active-Instagram-3-icon.png in Resources */,
+				A697E9D016CC232500B9FDA2 /* rate_star_empty.png in Resources */,
+				A697E9D116CC232500B9FDA2 /* rate_star_full.png in Resources */,
+				A697E9D216CC232500B9FDA2 /* rate_star_half.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6D2274E14A9051700C3EFB5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6D2275D14A9051700C3EFB5 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A6D2274F14A9051700C3EFB5 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A6D2272914A9051700C3EFB5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6D2273E14A9051700C3EFB5 /* main.m in Sources */,
+				A6D2274214A9051700C3EFB5 /* iPropinaAppDelegate.m in Sources */,
+				A6D2274B14A9051700C3EFB5 /* iPropinaViewController.m in Sources */,
+				A6546B451688F7A500614B21 /* RateViewController.m in Sources */,
+				A624B78D16921A66002CC1BF /* CategoryPickerViewController.m in Sources */,
+				A624B791169224FF002CC1BF /* NearbyNameViewController.m in Sources */,
+				A60B826C16C82BDE00F7D59A /* ShareViewController.m in Sources */,
+				A697E9CC16CC1D6200B9FDA2 /* RateView.m in Sources */,
+				A693A10216CD26EC0068681B /* CopyTextField.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6D2274C14A9051700C3EFB5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6D2276014A9051700C3EFB5 /* iPropinaTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A6D2275714A9051700C3EFB5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A6D2272C14A9051700C3EFB5 /* iPropina */;
+			targetProxy = A6D2275614A9051700C3EFB5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A6D2273A14A9051700C3EFB5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A6D2273B14A9051700C3EFB5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A6D2274314A9051700C3EFB5 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A6D2274414A9051700C3EFB5 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		A6D2274614A9051700C3EFB5 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A6D2274714A9051700C3EFB5 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		A6D2275B14A9051700C3EFB5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A6D2275C14A9051700C3EFB5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A6D2276114A9051700C3EFB5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Chris Martinez (7JR2N6CWUS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_LDFLAGS = "-ObjC";
+				PROVISIONING_PROFILE = "B7E41B80-EF59-4478-9AF3-6E24D4820EC1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		A6D2276214A9051700C3EFB5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Chris Martinez";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Chris Martinez";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				OTHER_LDFLAGS = "-ObjC";
+				PROVISIONING_PROFILE = "2F3154A7-5B16-46C7-B5DC-DCF6B5507B8C";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "2F3154A7-5B16-46C7-B5DC-DCF6B5507B8C";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A6D2276414A9051700C3EFB5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COMPRESS_PNG_FILES = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iPropina/iPropina-Prefix.pch";
+				INFOPLIST_FILE = "iPropina/iPropina-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				TARGETED_DEVICE_FAMILY = 1;
+				VALID_ARCHS = "armv7 armv7s";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A6D2276514A9051700C3EFB5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Chris Martinez";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				COMPRESS_PNG_FILES = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iPropina/iPropina-Prefix.pch";
+				INFOPLIST_FILE = "iPropina/iPropina-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "2F3154A7-5B16-46C7-B5DC-DCF6B5507B8C";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				TARGETED_DEVICE_FAMILY = 1;
+				VALID_ARCHS = "armv7 armv7s";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		A6D2276714A9051700C3EFB5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/iPropina.app/iPropina";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iPropina/iPropina-Prefix.pch";
+				INFOPLIST_FILE = "iPropinaTests/iPropinaTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		A6D2276814A9051700C3EFB5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/iPropina.app/iPropina";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iPropina/iPropina-Prefix.pch";
+				INFOPLIST_FILE = "iPropinaTests/iPropinaTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A6D2272714A9051700C3EFB5 /* Build configuration list for PBXProject "iPropina" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6D2276114A9051700C3EFB5 /* Debug */,
+				A6D2276214A9051700C3EFB5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6D2276314A9051700C3EFB5 /* Build configuration list for PBXNativeTarget "iPropina" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6D2276414A9051700C3EFB5 /* Debug */,
+				A6D2276514A9051700C3EFB5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6D2276614A9051700C3EFB5 /* Build configuration list for PBXNativeTarget "iPropinaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6D2276714A9051700C3EFB5 /* Debug */,
+				A6D2276814A9051700C3EFB5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A6D2272414A9051700C3EFB5 /* Project object */;
+}
